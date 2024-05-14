@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "Lab5_ADC",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"Lab5_Q1.C": "cpp",
+			"Lab5_Q2.C": "cpp"
+		}
+	}
+}

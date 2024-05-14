@@ -1,0 +1,13 @@
+name = "samsudeen mohamed musthak"
+
+
+def name_split(name):
+name1 = name.split(" ")
+print(name1)
+
+
+name_split(name)
+
+
+
+

@@ -1,0 +1,15 @@
+E/19/003,Abeysinghe A.M.H.P.,3.56
+E/19/004,R.B. Abeysinghe,3.8
+E/19/006,Abrew S.T.D.,3.75
+E/19/007,Achsuthan T.,3.89
+E/19/008,R.A.J.C. Adhikari,3.99
+E/19/009,Adikari A.M.K.M.,3.89
+E/19/017,Amanda W.S.,3.64
+E/19/028,Atugedara A.N.I.,3.54
+E/19/029,Avinash K.T.D.,3.35
+E/19/034,Bambaragama H.M.K.D.,3.44
+E/19/057,Colombage C.O.,3.56
+E/19/105,M. H. M. Fahman,3.78
+E/19/106,Faseeh M.F.M.,3.89
+E/19/244,Mohanathas H.,3.57
+E/19/247,S.M. Musthak,3.30

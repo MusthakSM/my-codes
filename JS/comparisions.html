@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Comparisions.</title>
+</head>
+<body>
+    <h1>JavaScript Comparisions</h1>
+    <p>Input your age and Click the button</p>
+    <input type="text" id="age" placeholder="Enter your age.."/>
+    <button onclick="CheckValidity()">Submit</button>
+    
+    <p id="demo"></p>
+
+    <script>
+        function CheckValidity(){
+
+            let votable;
+
+            let age = Number(document.getElementById("age").value);
+
+            if(isNaN(age)){
+                votable = "Input is not a Number";
+            }else{
+                votable = (age>18)?"Old enough": "Too young";
+            }
+            document.getElementById('demo').innerHTML = votable + " to vote";
+        }
+
+    </script>
+    
+</body>
+</html>

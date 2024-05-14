@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Bootstrap5 Buttons</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=display-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <br>
+        <h2>Buttons in Bootstrap5</h2>
+
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-link">Link button</button>
+
+        <a href="#"  class="btn btn-success">Link</a>
+        <input type="button" class="btn btn-success" value="InputButton">
+        <input type="submit" class="btn btn-success" value="SubmitButton">
+        <input type="reset" class="btn btn-success" value="ResetButton">
+
+        <!-- Full Width block level multiple buttons-->
+
+        <div class="d-grid gap-3">
+            <button type="button" class="btn btn-success btn-block">Full width button 1</button>
+            <button type="button" class="btn btn-danger btn-block">Full width button 2</button>
+        </div>
+        <!-- grouped buttons with dropdown menu -->
+
+        <div class="btn-group btn-group-lg">
+
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Apple</button>
+            
+            <div class="btn-group">
+                <button type="butto" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Tablet</a>
+                    <a href="#" class="dropdown-item">Watches</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <!--Progress Bar in Bootstrap5-->
+        <h1>Progress bar in Bootstrap5</h1>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width:50%">Spaces</div>
+        </div>
+
+    </body>
+</html>
